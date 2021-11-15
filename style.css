@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    font-family: Roboto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main > div {
+    flex: 1 1 400px;
+}
+
+.pilt {
+    width: auto;
+    height: 400px;
+    margin-right: 40px;
+    background: url('ilutoa.png') no-repeat center;
+    background-size: contain;
+}
+
+.right_block {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Praise;
+    font-size: 60px;
+}
+
+.left_block a {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #000;
+}
+
+iframe {
+    margin: 20px 0;
+}
+
+.media {
+    display: flex;
+    justify-content: space-around;
+}
+
+.media a {
+    display: inline-block;
+}
+
+.media div {
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+}
+
+.facebook {
+    background: url('facebook.png') no-repeat center;
+    background-size: cover;
+}
+
+.instagram {
+    background: url('instagram.png') no-repeat center;
+    background-size: cover;
+}
+
+.tumblr {
+    background: url('tumblr.png') no-repeat center;
+    background-size: cover;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address {
+    margin: 10px auto;
+}
+
+table {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+
+td {
+    padding: 10px 0;
+}
+
+td:nth-child(1) {
+    padding-right: 100px;
+}
+
+body > h1 {
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.nav {
+    margin-top: 30px;
+}
